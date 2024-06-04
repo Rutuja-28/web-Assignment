@@ -1,0 +1,284 @@
+* {
+    font-family: 'Clash Display', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 5887px;
+    border-radius: 34px;
+    position: relative;
+    /* background-color: aqua; */
+
+
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+
+    height: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    z-index: 1;
+}
+
+.nav ul {
+    display: flex;
+    gap: 16px;
+}
+
+
+.nav ul li {
+    list-style-type: none;
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.logo {
+    padding: 0 25px;
+    justify-self: center;
+}
+
+.downloadbtn {
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.star1 {
+    position: absolute;
+    top: 52px;
+    right: 54px;
+    z-index: 1;
+}
+
+.star2{
+    position: absolute;
+    top: 61px;
+    left: 152px;
+
+}
+.star3{
+    position: absolute;
+    right: 583px;
+    top: 523px;
+    opacity: 0.1;
+}
+
+.star4{
+    position: absolute;
+    top: 457px;
+    left: 392px;
+    z-index: 1;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.patch {
+    border-radius: 50px;
+    position: absolute;
+    top: 11px;
+    left: 289px;
+
+}
+
+.text1 {
+    position: absolute;
+    top: 101px;
+    left: 0px;
+    font-weight: 900;
+    font-size: 52px;
+    width: 618px;
+    height: 128px;
+}
+
+.innerText {
+    width: 542px;
+    height: 56px;
+    position: absolute;
+    left: -1px;
+    top: 262px;
+}
+
+.phone {
+    position: relative;
+    top: 5px;
+    right: 382px;
+    z-index: 10;
+}
+
+/* @media only scree and (min-width: 1388px){
+    .phone{
+        width: 200px;
+        height: 300px;
+    position: relative;
+    top: 5px;
+    right: 283px;
+    z-index: 10;
+    }
+} */
+
+.iphone1 {
+    width: 203px;
+    height: 432px;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: -175px;
+    top: 223px;
+    rotate: -15deg;
+    overflow: hidden;
+    border-radius: 40px;
+
+}
+
+.iphone2 {
+    width: 208px;
+    height: 440px;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: -60px;
+    top: 140px;
+    rotate: -15deg;
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+.iphone3 {
+    width: 207px;
+    height: 432px;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 83px;
+    top: 70px;
+    rotate: -15deg;
+    overflow: hidden;
+    border-radius: 35px;
+}
+
+.i1 {
+    position: absolute;
+    right: -61px;
+    width: 319px;
+    top: -13px;
+}
+
+.i2 {
+    position: absolute;
+    right: -172px;
+    width: 498px;
+    top: -54px;
+}
+
+.i3 {
+    position: absolute;
+    right: -63px;
+    width: 323px;
+    top: -16px;
+
+}
+
+.ellipse1{
+    width: 313px;
+    height: 482px;
+    border-radius: 352px;
+    position: absolute;
+ right: 247px;
+    rotate: -45deg;
+     top: 127px;
+    border: 2px solid black;
+}
+
+/* @meida only screen and (min-width: 1338px){
+    .ellipse1{
+       right;160px;
+    top: 133px;
+    } */
+
+.ellipse2{
+    width: 360px;
+    height: 509px;
+    border-radius: 470px;
+    position: absolute;
+    right: 200px;
+    rotate: -45deg;
+    top: 90px;
+    border: 2px solid black;
+}
+.ellipse3{
+    width: 452px;
+    height: 549px;
+    border-radius: 527px;
+    position: absolute;
+    right: 166px;
+    rotate: -45deg;
+    top: 61px;
+    border: 2px solid black;
+}
+
+.patch2{
+    position: absolute;
+    right: 231px;
+    top: 293px;
+    width: 523px;
+    border-radius: 196px;
+
+    overflow: hidden;
+}
+
+
+
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -6px;
+    top: 315px;
+    z-index: 1;
+
+}
+
+.text {
+    width: 198px;
+    height: 62px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn {
+    background-color: white;
+    width: 198px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: none;
+}
+
+.zigzag{
+    position: absolute;
+    top: 400px;
+    left: 264px;
+}
